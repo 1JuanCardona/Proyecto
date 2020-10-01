@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" typer="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script type="text/javascript" src="js/conversor.js"></script>
+    <title>Recorridos</title>
+</head>
+<body>
+<div>
+    <h1>Conversor de expresiones</h1>
+</div>
+ <div>
+    <div>
+        <h2>Expresiones</h2>
+    </div>
+    
+    <div>
+        <form name="forms" id="forms">
+            <input type="text" id="expresion" required>
+            <button type="button" onclick="prefijo()">Prefijo</button>
+            <button type="button" onclick="postfija()">Postfijo</button>
+            <button type="button" onclick="postfija(),prefijo()">Ambas</button>
+        </form>
+ </div>
+ <div id="resultadoPrefijo"></div>
+ <div id="respsultadoPostfija"></div>
+    
+</body>
+</html>
